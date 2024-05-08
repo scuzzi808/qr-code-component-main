@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -9,8 +11,9 @@ body {
     padding: o;
     margin: 0;
     box-sizing: border-box;
+    font-size: 15px;
     font-family: 'Outfit';
-    background-color: var(--grayish-blue);
+    background-color: var(--light-gray);
 }
 
 .wrapper {
@@ -46,10 +49,5 @@ img {
 
 p {
     color: var(--grayish-blue);
-}
-
-@media (max-width: 370px) {
-    .qr-wrapper {
-        width: 90%;
-    }
+    margin: 0;
 }
